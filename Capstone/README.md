@@ -2,7 +2,7 @@
 **Nand to Tetris – I (ETCCNT301)**  
 School of Engineering & Technology, K.R. Mangalam University  
 
-**Student Name:** Shalini Singh
+**Student Name:** Shalini Singh,
 **Roll Number:** 2501010067  
 **Personal Number** K: 67  
 
