@@ -1,7 +1,4 @@
-# Capstone Project Report: Make the Computer Draw a Box
-**Course:** Nand to Tetris – I (ETCCNT301)  
-**Department:** School of Engineering & Technology, K.R. Mangalam University  
-**Marks:** 10 | **Individual Work** | **Course Outcomes:** CO1–CO4  
+
 
 ---
 
