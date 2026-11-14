@@ -1,15 +1,4 @@
 #!/usr/bin/env python3
-"""
-Hack Assembler in Python
-Nand to Tetris - I (ETCCNT301) - Capstone Project
-School of Engineering & Technology, K.R. Mangalam University
-
-Student: Priyanshu Kumar
-Roll Number: 2501010178
-Personal Number: K = 178 (178 mod 3 = 1)
-Additional feature: Print a warning if the same label is written twice.
-(Also supports symbols.txt export and clear line number syntax error reporting).
-"""
 
 import sys
 import os
