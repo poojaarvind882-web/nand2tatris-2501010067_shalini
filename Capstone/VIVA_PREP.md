@@ -1,6 +1,4 @@
-# Capstone Viva Preparation Guide (5 Minutes Viva)
-**Subject:** Nand to Tetris – I (ETCCNT301)  
-**Student:** Priyanshu Kumar | **Roll No:** 2501010178 | **K = 178**
+
 
 ---
 
