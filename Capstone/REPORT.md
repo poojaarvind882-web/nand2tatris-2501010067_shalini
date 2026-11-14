@@ -2,19 +2,6 @@
 
 ---
 
-### Student Details
-- **Student Name:** Priyanshu Kumar
-- **Roll Number:** 2501010178
-- **Personal Number \(K\):** `178` *(last three digits of the roll number)*
-- **Calculations based on \(K = 178\):**
-  - **\(K \pmod 3\):** \(178 \pmod 3 = 1\)
-  - **\(K \pmod 4\):** \(178 \pmod 4 = 2\)
-  - **Box Position & Size:**
-    - **Starting Row:** Row \(K = 178\)
-    - **Height:** 20 rows (Rows 178 to 197 inclusive)
-    - **Width:** \(16 \times ((K \pmod 4) + 1) = 16 \times (2 + 1) = 48\) pixels from the left edge.
-    - **Screen Memory Words:** Hack display has 16 pixels per word. 48 pixels = 3 consecutive words (Word 0, Word 1, Word 2) at the start of each row.
-    - **Base Address:** \(\text{SCREEN} + (32 \times 178) = 16384 + 5696 = \mathbf{22080}\).
 
 ---
 
