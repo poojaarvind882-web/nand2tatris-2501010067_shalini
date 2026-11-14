@@ -1,26 +1,4 @@
-// Box.asm
-// Capstone Project: Make the Computer Draw a Box
-// Nand to Tetris - I (ETCCNT301)
-// School of Engineering & Technology, K.R. Mangalam University
-//
-// Student Name: Priyanshu Kumar
-// Roll Number:  2501010178
-// Personal Number K: 178 (last three digits of roll number)
-//
-        // Box Specifications for K = 178:
-// - Start Row: K = 178
-// - Height: 20 rows (Row 178 to Row 197)
-// - Width: 16 * ((178 mod 4) + 1) = 16 * (2 + 1) = 48 pixels
-//   (which equals 3 words of 16 bits each per row, starting from left edge)
-// - Start Address in Screen Memory:
-//     SCREEN + 32 * K = 16384 + (32 * 178) = 16384 + 5696 = 22080
-//
-// Operation:
-// - Continuously checks keyboard input (RAM[24576] / KBD).
-// - If any key is pressed (KBD != 0): fills the 48x20 box with black (-1).
-// - If no key is pressed (KBD == 0): clears the 48x20 box to white (0).
 
-(MAIN_LOOP)
     // Read the keyboard register
     @KBD
     D=M
