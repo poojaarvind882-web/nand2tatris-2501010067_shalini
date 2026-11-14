@@ -1,17 +1,10 @@
 #!/usr/bin/env python3
-"""Test runner and terminal visualizer for the K=178 Box.hack program."""
+
 
 import os
 import sys
 
-STUDENT_NAME = "Priyanshu Kumar"
-ROLL_NUMBER = "2501010178"
-K = 178
-BOX_HEIGHT = 20
-BOX_WORDS = (K % 4) + 1
-SCREEN_BASE = 16384
-SCREEN_WORDS_PER_ROW = 32
-BOX_START = SCREEN_BASE + SCREEN_WORDS_PER_ROW * K
+* K
 
 def load_rom(hack_file):
     with open(hack_file, "r") as f:
